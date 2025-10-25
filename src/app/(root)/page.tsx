@@ -26,7 +26,18 @@ export default function Home() {
     }
     fetchposts();
   }, []);
+  const filtered = post.filter((poster) => {
+    if (!query) return true;
 
+    const searchterm=query.toLowerCase();
+    return(
+      poster.title?.toLowerCase().includes(searchterm) ||
+      poster.desc?.toLowerCase().includes(searchterm) ||
+      poster.user?.toLowerCase().includes(searchterm) ||
+      poster.position?.toLowerCase().includes(searchterm)
+
+    )
+  })
   return (
     <div className="bg-white">
       <div className="bg-[#EE2B69] h-[40vh] flex flex-col items-center gap-3 p-15"> 
@@ -38,10 +49,11 @@ export default function Home() {
 
       </div>
       <div>
-        <h1 className="text-black font-bold text-3xl mt-10 px-8">Recommended startups</h1>
+        {!query ? (<h1 className="text-black font-bold text-3xl mt-10 px-8">Recommended startups</h1>) : (<h1 className="text-black font-bold text-3xl mt-10 px-8">Search results for {query} </h1>)}
+        
       </div>
       <div className="bg-white min-h-screen mt-7 px-10 gap-10 grid grid-cols-3 py-5 lg:grid-cols-4 ">
-        {post.map((poster)=>(
+        {filtered.map((poster)=>(
           <Card
          key={poster._id}
          

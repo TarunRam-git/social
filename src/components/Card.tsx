@@ -4,7 +4,7 @@ import { Eye } from 'lucide-react'
 import { posts } from '@/lib/types'
 const Card = ({createdat, views, user, title, desc, position, image, avatar}:posts) => {
   return (
-    <div className='bg-white  outline-5 outline-black  text-black rounded-2xl '>
+    <div className='bg-white  outline-5 outline-black max-h-[60vh] text-black rounded-2xl '>
       <div className='p-5 flex flex-col justify-between h-full gap-8 text-sm'>
         <div className='flex justify-between'>
             <div className='bg-[#FFE8F0] h-[3vh] w-[10vh] flex items-center justify-center rounded-2xl'>{new Date(createdat).toISOString().split('T')[0]}</div>
