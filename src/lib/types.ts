@@ -1,6 +1,6 @@
-import { Types } from "mongoose";
+import { ObjectId } from "mongodb";
 export interface posts {
-    _id? : string;
+    _id? : ObjectId;
     createdat : Date | string;
     views: number;
     user: string;
@@ -10,3 +10,7 @@ export interface posts {
     image: string;
     avatar: string;
 };
+export interface user{
+    username: string;
+    position: string;
+}

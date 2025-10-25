@@ -28,5 +28,11 @@ async function dbConnect() {
   cached.conn = await cached.promise;
   return cached.conn;
 }
+export async function dbDisconnect() {
+  if (mongoose.connection.readyState !== 0) {
+    await mongoose.disconnect();
+    console.log("MongoDB disconnected.");
+  }
+}
 
 export default dbConnect;

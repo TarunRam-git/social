@@ -7,7 +7,7 @@ const Ybox = () => {
         
         <Image src="/triangle.png" alt="triangle" width={15} height={15} className='absolute top-2 left-2' />
         
-        <h1 className='text-xl'>PITCH, VOTE, AND GROW</h1>
+        <h1 className='text-xl'>GO OUT THERE!</h1>
       </div>
     </div>
   )

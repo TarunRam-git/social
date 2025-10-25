@@ -42,20 +42,20 @@ export default function Home() {
     <div className="bg-white">
       <div className="bg-[#EE2B69] h-[40vh] flex flex-col items-center gap-3 p-15"> 
          <Ybox/> 
-         <Bbox />
+         <Bbox text="EXPRESS YOURSELF!"/>
          <h1 className="text-xl">Submit your ideas or be lost!</h1>
          <Searchbox lol={query} hehelol={setQuery}/>
          {query}
 
       </div>
       <div>
-        {!query ? (<h1 className="text-black font-bold text-3xl mt-10 px-8">Recommended startups</h1>) : (<h1 className="text-black font-bold text-3xl mt-10 px-8">Search results for {query} </h1>)}
+        {!query ? (<h1 className="text-black font-bold text-3xl mt-10 px-8">Recommended People</h1>) : (<h1 className="text-black font-bold text-3xl mt-10 px-8">Search results for {query} </h1>)}
         
       </div>
       <div className="bg-white min-h-screen mt-7 px-10 gap-10 grid grid-cols-3 py-5 lg:grid-cols-4 ">
         {filtered.map((poster)=>(
           <Card
-         key={poster._id}
+         key={poster._id?.toString()}
          
          createdat = {poster.createdat}
          views = {poster.views}

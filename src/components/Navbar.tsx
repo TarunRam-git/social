@@ -1,8 +1,10 @@
 "use client";
+import { useRouter } from 'next/navigation';
 import React from 'react'
 import Image from 'next/image'
 import { signIn, signOut,useSession } from 'next-auth/react'
 const navbar = () => {
+  const router = useRouter();
   const { data: session } = useSession();
   return (
     <header className='px-5 py-3 bg-white rounded-t-2xl'>
@@ -12,7 +14,7 @@ const navbar = () => {
         <h1 className='text-black text-3xl ml-[8%]'>GILIGILI</h1>
         <div className='flex items-center gap-6 text-black'>
 
-        <div>Create</div>
+        <button onClick={ ()=>{router.push("/create")}}>Create</button>
         <button onClick={()=>signOut()}>Logout</button>
         {session ? (
           <div className='flex flex-col gap-2'>
