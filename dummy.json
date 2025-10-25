@@ -1,0 +1,83 @@
+ [
+    {
+      "createdat": "2025-10-24T10:30:00Z",
+      "views": 1523,
+      "user": "john_doe",
+      "title": "Beautiful Sunset Photography",
+      "desc": "Captured this stunning sunset at the beach during golden hour. The colors were absolutely breathtaking!",
+      "position": "Photographer",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+      "avatar": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "createdat": "2025-10-23T14:15:00Z",
+      "views": 2847,
+      "user": "sarah_smith",
+      "title": "Mountain Hiking Adventure",
+      "desc": "Reached the summit after a challenging 6-hour hike. The view from the top made every step worth it!",
+      "position": "Adventure Blogger",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop",
+      "avatar": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "createdat": "2025-10-22T09:45:00Z",
+      "views": 892,
+      "user": "mike_chen",
+      "title": "Coffee Art Mastery",
+      "desc": "Practicing latte art techniques. This heart design came out perfectly today!",
+      "position": "Barista",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=600&fit=crop",
+      "avatar": "https://i.pravatar.cc/150?img=33"
+    },
+    {
+      "createdat": "2025-10-21T16:20:00Z",
+      "views": 3421,
+      "user": "emma_williams",
+      "title": "Urban Architecture Design",
+      "desc": "Modern architecture meets classical design in this stunning building facade in downtown.",
+      "position": "Architect",
+      "image": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=800&h=600&fit=crop",
+      "avatar": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "createdat": "2025-10-20T11:00:00Z",
+      "views": 1678,
+      "user": "alex_kumar",
+      "title": "Tech Workspace Setup",
+      "desc": "Finally completed my dream home office setup. Productivity has never been better!",
+      "position": "Software Developer",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop",
+      "avatar": "https://i.pravatar.cc/150?img=15"
+    },
+    {
+      "createdat": "2025-10-19T13:30:00Z",
+      "views": 2156,
+      "user": "lisa_anderson",
+      "title": "Delicious Homemade Pizza",
+      "desc": "Made this from scratch - even the dough! The secret is using a pizza stone for that crispy crust.",
+      "position": "Food Blogger",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&h=600&fit=crop",
+      "avatar": "https://i.pravatar.cc/150?img=20"
+    },
+    {
+      "createdat": "2025-10-18T08:15:00Z",
+      "views": 4523,
+      "user": "david_park",
+      "title": "Fitness Journey Progress",
+      "desc": "6 months of consistent training. The transformation is real when you stay dedicated!",
+      "position": "Personal Trainer",
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=600&fit=crop",
+      "avatar": "https://i.pravatar.cc/150?img=68"
+    },
+    {
+      "createdat": "2025-10-17T19:45:00Z",
+      "views": 1234,
+      "user": "olivia_brown",
+      "title": "Cozy Reading Corner",
+      "desc": "Created the perfect reading nook in my apartment. Books, blankets, and a cup of tea - pure bliss!",
+      "position": "Book Reviewer",
+      "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&h=600&fit=crop",
+      "avatar": "https://i.pravatar.cc/150?img=45"
+    }
+  ]
+
